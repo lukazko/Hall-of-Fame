@@ -1,0 +1,193 @@
+/* CSS Document */
+
+body{margin: 0px auto;
+      padding: 0px auto;
+      background-image: url("images/noise.gif");
+      background-repeat: repeat;
+}
+@font-face{
+           font-family: "ten";
+           src: url("Godzilla.ttf");
+}
+#all{
+    height: 100vh;
+}
+#header{
+        text-align: center;
+        width: 100%;
+        font-size: 180px;
+        text-shadow: 10px 10px 1px #000000;
+        margin-top: -3.5%;
+}
+#name{ 
+      font-family: ten;
+}
+#motto{
+        font-family: ten;
+        font-size: 99.5px;
+        margin-top: -205px
+}
+#hypno{
+      left: 0px;
+      bottom: 0px;
+      position: fixed;
+}
+#wizard{
+        left: -35px;
+        bottom: -20px;
+        position: fixed;
+        float: right;
+}
+#bubble{
+        width: 299px;
+        height: 183px;
+        left: 155px;
+        bottom: 100px;
+        position: fixed;
+        /*background-image: url("quotes/1.png")*/
+}
+#menu1{
+      margin-top: -100px;
+      position: fixed; 
+      height: 118.6px; 
+      width: 113.8px;
+}
+#menu2{
+      margin-top: -100px;
+      margin-left: 120px;
+      height: 118.6px; 
+      width: 113.8px;      
+}
+#description1{
+      width: 200px;
+      height: 40px;
+      background-color: black;
+      margin-top: -50px;
+
+}
+a.tooltips {
+        position: relative;
+        display: inline;
+        font-size: 18px;
+        font-family: arial black;
+}
+a.tooltips span {
+            position: absolute;
+            width:180px;
+            color: #FFFFFF;
+            background: #000000;
+            height: 44px;
+            line-height: 40px;
+            text-align: center;
+            visibility: hidden;
+            border-radius: 2px;
+}
+a.tooltips span:after {
+                    content: '';
+                    position: absolute;
+                    /*opacity: 0;*/
+                    top: 50%;
+                    left: 100%;
+                    margin-top: -8px;
+                    width: 0; height: 0;
+                    border-left: 8px solid #000000;
+                    border-top: 8px solid transparent;
+                    border-bottom: 8px solid transparent;
+}
+a:hover.tooltips span {
+                  visibility: visible;
+                  opacity: 0.9;
+                  right: 100%;
+                  top: 50%;
+                  margin-top: -70px;
+                  margin-right: 15px;
+                  z-index: 999;
+}
+a.tooltips2 {
+          position: relative;
+          display: inline;
+          font-size: 18px;
+          font-family: arial black;
+}
+a.tooltips2 span {
+                    position: absolute;
+                    width:180px;
+                    color: #FFFFFF;
+                    background: #000000;
+                    height: 44px;
+                    line-height: 40px;
+                    text-align: center;
+                    visibility: hidden;
+                    border-radius: 2px;
+}
+a.tooltips2 span:after {
+                    content: '';
+                    position: absolute;
+                    /*opacity: 0;*/
+                    top: 50%;
+                    right: 100%;
+                    margin-top: -8px;
+                    width: 0; height: 0;
+                    border-right: 8px solid #000000;
+                    border-top: 8px solid transparent;
+                    border-bottom: 8px solid transparent;
+}
+a:hover.tooltips2 span {
+                    visibility: visible;
+                    opacity: 0.9;
+                    left: 100%;
+                    top: 50%;
+                    margin-top: -70px;      
+                    margin-left: 15px;
+                    z-index: 999;
+}
+#back{
+      height: 114px;
+      width: 182px; 
+      position: fixed; 
+      top: 50px; 
+      left:30px;
+}
+#language{
+          position: fixed;
+          right: 10px;
+          top: 10px;
+          height: 32px;
+          width: 53.3px;
+}
+a.tooltips3 {
+        position: relative;
+        display: inline;
+        font-size: 14px;
+        font-family: arial black;
+}
+a.tooltips3 span {
+            position: fixed;
+            top: 11.5px;
+            right: 75px;
+            width: 180px;
+            color: #FFFFFF;
+            background: #000000;
+            height: 30px;
+            line-height: 32px;
+            text-align: center;
+            visibility: hidden;
+            border-radius: 2px;
+}
+a.tooltips3 span:after {
+                    content: '';
+                    position: absolute;
+                    /*opacity: 0;*/
+                    top: 50%;
+                    left: 100%;
+                    margin-top: -8px;
+                    width: 0; height: 0;
+                    border-left: 8px solid #000000;
+                    border-top: 8px solid transparent;
+                    border-bottom: 8px solid transparent;
+}
+a:hover.tooltips3 span {
+                  visibility: visible;
+                  opacity: 0.9;
+                  z-index: 999;
+}
