@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="web_author" content="Lukáš Kubík, KSOT">
@@ -8,21 +9,30 @@
   <link rel="icon" href="images/icon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="styles.css">
   <title>KENTAUR</title>
-</head> 
+</head>
 
 <body>
 
   <div id="header">
     <p id="name">
-      <span class="letters-A">K</span><span class="letters-B">E</span><span class="letters-A">N</span><span class="letters-B">T</span><span class="letters-A">A</span><span class="letters-B">U</span><span class="letters-A">R</span>
+      <span class="letters-A">K</span><span class="letters-B">E</span><span class="letters-A">N</span><span class="letters-B">T</span><span
+        class="letters-A">A</span><span class="letters-B">U</span><span class="letters-A">R</span>
     </p>
     <p id="motto">
-      <span class="letters-B">A</span><span class="letters-A">s</span><span class="letters-B">s</span><span class="letters-A">o</span><span class="letters-B">c</span><span class="letters-A">i</span><span class="letters-B">a</span><span class="letters-A">l</span><span class="letters-B">s</span><span class="letters-A">a</span><span class="letters-B">j</span><span class="letters-A">t</span>
+      <span class="letters-B">A</span><span class="letters-A">s</span><span class="letters-B">s</span><span class="letters-A">o</span><span
+        class="letters-B">c</span><span class="letters-A">i</span><span class="letters-B">a</span><span class="letters-A">l</span><span
+        class="letters-B">s</span><span class="letters-A">a</span><span class="letters-B">j</span><span class="letters-A">t</span>
     </p>
-    <a href="lazne.html" class="tooltips"><img id="menu1"><span>Veřejné lázně</span></a>
-    <a href="obrazarna.html" class="tooltips2"><img id="menu2"><span>Obrazárna</span></a>
-    <a href="index.html" class="tooltips3"><img id="language" src="images/flag.png"><span>Jazyk: Čangličtina</span></a>
+    <div class="menu">
+      <a href="lazne.html" id="menu-item1">
+        <div class="menu-item"></div>
+      </a>
+      <a href="obrazarna.html" id="menu-item2">
+        <div class="menu-item"></div>
+      </a>
+    </div>
   </div>
+  <a href="index.html" class="tooltips3"><img id="language" src="images/flag.png"><span>Jazyk: Čangličtina</span></a>
   <script type="text/javascript">
     function changeB() {
 
@@ -36,7 +46,7 @@
     };
   </script>
   <img id="wizard" src="images/icon.ico" onMouseOver="changeB()" onMouseOut="unClick()">
-  <div id="bubble">
+  <div id="bubble"></div>
 </body>
 
 </html>
