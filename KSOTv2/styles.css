@@ -5,7 +5,7 @@
 body {
   margin: 0px auto;
   padding: 0px auto;
-  background-image: url("images/noise.gif");
+  background-image: url("../KSOTv2/images/noise.gif");
   background-repeat: repeat;
 }
 
@@ -98,39 +98,39 @@ body {
 
 #menu-item1 {
   animation: color-src1 0.5s infinite;
-  background-image: url("../KSOT/images/menu/lazneB.png");
+  background-image: url("../KSOTv2/images/menu/lazneB.png");
   background-size: cover;
   margin: auto;
 }
 
 @keyframes color-src1 {
   0% {
-    background-image: url("../KSOT/images/menu/lazneP.png");
+    background-image: url("../KSOTv2/images/menu/lazneP.png");
   }
   50% {
-    background-image: url("../KSOT/images/menu/lazneB.png");
+    background-image: url("../KSOTv2/images/menu/lazneB.png");
   }
   100% {
-    background-image: url("../KSOT/images/menu/lazneP.png");
+    background-image: url("../KSOTv2/images/menu/lazneP.png");
   }
 }
 
 #menu-item2 {
   animation: color-src2 0.5s infinite;
-  background-image: url("../KSOT/images/menu/obrazarnaP.png");
+  background-image: url("../KSOTv2/images/menu/obrazarnaP.png");
   background-size: cover;
   margin: auto;
 }
 
 @keyframes color-src2 {
   0% {
-    background-image: url("../KSOT/images/menu/obrazarnaB.png");
+    background-image: url("../KSOTv2/images/menu/obrazarnaB.png");
   }
   50% {
-    background-image: url("../KSOT/images/menu/obrazarnaP.png");
+    background-image: url("../KSOTv2/images/menu/obrazarnaP.png");
   }
   100% {
-    background-image: url("../KSOT/images/menu/obrazarnaB.png");
+    background-image: url("../KSOTv2/images/menu/obrazarnaB.png");
   }
 }
 

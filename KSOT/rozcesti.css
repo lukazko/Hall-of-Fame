@@ -1,0 +1,70 @@
+/* CSS Document */
+@font-face{
+           font-family: "sampb";
+           src: url("ChampagneBold.ttf");
+          }
+
+body{
+     margin: 0;
+     padding: 0;
+     color: white;     
+    }  
+
+a{
+  color: white;
+  text-decoration: none;                 
+ }
+
+a:hover{
+        text-decoration: underline;
+       }            
+
+#logo{
+      display:block; 
+      text-align:center; 
+      margin: 0 auto; 
+      margin-top: 5%;
+      width: 70%;
+      height: 40%;
+      background: url('logo_rozcesti.jpg') no-repeat center top;
+     }
+
+
+      
+#menu{
+      border: 4; 
+      border-color: white; 
+      text-align: center;
+      font-size: 51px; 
+      font-family: sampb; 
+      margin-top: 0%;  
+     }
+
+.button{
+        width: 240px;
+        height: 65px;
+       }
+       
+#praseciny{
+           background: #EB1C76;
+          }
+
+#projekt{
+         background: #8ACA41;
+        } 
+        
+#nohama{        
+        background: #EF2121;         
+       } 
+       
+#zidbook{       
+         background: #FFD800;
+        }
+        
+#joga{       
+      background: #00B2A9;
+     }  
+        
+#onas{       
+      background: #1E1E1E;
+     }         

@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Lukáš Kubík">
+    <meta name="generator" content="PSPad editor, www.pspad.com">
+    <meta name="description" content="Oficiální stránky, nejimpozantnější společnosti na světě. Průmkařiny smrdí.">
+    <meta name="keywords" content="kentaur, kentaur s.o.t., společnost opředená tajemstvím, průmkařiny smrdí, lukáš kubík, židbook, prasečiny, projekt š, 
+    nohama, poslepu">
+    <title>Průmkařiny SHUT DOWN</title>
+    <style>
+      @font-face {
+            font-family: "tex";
+            src: url("texgyreadventor.otf");
+           }
+      @font-face{
+           font-family: "sampb";
+           src: url("ChampagneBold.ttf");
+          }
+      body{
+      font-family: tex;
+      background: #1E1E1E;
+      text-align: center;
+      color: white;
+      } 
+      #odpocet {
+      font-family: tex;
+      font-size: 120px; 
+      color: white;
+      background: #1E1E1E;
+      border: 0px;
+      text-align: center;
+      margin-top: -5%;
+  
+      }
+      h1{
+      font-size: 100px;
+      margin-top: 10%;
+      }
+      #dny{
+      font-size: 20px;
+      margin-top: -2%;
+      margin-left: -42%
+      position: absolute;
+      } 
+      #hodiny{
+      font-size: 20px;
+      margin-top: -4%;
+      margin-left: -10%
+      } 
+    </style>
+  </head>
+  
+  <body onload="startclock()">
+<!--<h1>Průmkařiny SHUT DOWN</h1>--><br><br> <br><br> <br><br> <br><br>       
+<script type="text/javascript"> 
+var timerID = null; 
+var timerRunning = false; 
+function showtime() { 
+today = new Date(); 
+Prodej = new Date("october 21, 2013, 23:59") 
+msPerDay = 24 * 60 * 60 * 1000 ; 
+timeLeft = (Prodej.getTime() - today.getTime()); 
+e_daysLeft = timeLeft / msPerDay; 
+daysLeft = Math.floor(e_daysLeft); 
+e_daysLeft = timeLeft / msPerDay; 
+daysLeft = Math.floor(e_daysLeft); 
+e_hrsLeft = (e_daysLeft - daysLeft)*24; 
+hrsLeft = Math.floor(e_hrsLeft); 
+minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60); 
+hrsLeft = hrsLeft; 
+e_minsLeft = (e_hrsLeft - hrsLeft)*60; 
+secLeft = Math.floor(e_hrsLeft); 
+secLeft = Math.floor((e_minsLeft - minsLeft)*60); 
+secLeft = secLeft; 
+Temp3=daysLeft+' : '+hrsLeft+' : '+minsLeft+' : '+secLeft+' ' 
+document.odpocet.zbyva.value=Temp3;
+timerID = setTimeout("showtime()",1000); 
+timerRunning = true; 
+} 
+var timerID = null; 
+var timerRunning = false; 
+function stopclock () { 
+if(timerRunning) 
+clearTimeout(timerID); 
+timerRunning = false; 
+} 
+function stopClock() { 
+stopclock(); 
+return; 
+} 
+function startclock () { 
+stopclock(); 
+showtime(); 
+} 
+</script> 
+
+<form name="odpocet">
+<input id="odpocet" name="zbyva"/>
+</form>
+<p id="dny">DAYS</p>
+<p id="hodiny">HOURS</p>
+<p id="minuty">MINUTES</p>
+<p id="sekundy">SECONDS</p>    
+  </body>
+</html>

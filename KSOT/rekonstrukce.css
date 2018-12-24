@@ -1,0 +1,12 @@
+/* CSS Document */
+body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      text-align: center;
+}
+#rekonstrukce{
+              height: 90%;
+              display: block;
+              background: url('rekonstrukce.jpg') no-repeat center top;
+}      

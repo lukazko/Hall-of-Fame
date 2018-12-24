@@ -1,0 +1,174 @@
+/* CSS Document */
+@font-face{
+           font-family: "sampb";
+           src: url("ChampagneBold.ttf");
+          }
+                
+body{
+     margin: 0;
+     padding: 0;
+     color: white;
+    }
+
+#bodypraseciny{
+               background: #EB1C76;
+              } 
+              
+#bodyprojekt{
+             background: #8ACA41;
+            }
+              
+#bodynohama{
+            background: #EF2121;
+           }
+              
+#bodyzidbook{
+             background: #FFD800;
+            }
+#levajoga{ 
+      margin-left:6%;
+      margin-top: 0%;
+      position: absolute;
+      text-align: center;
+      
+     }
+#jogagirl{
+          height: 50%;
+          width: 45%;
+         }
+#joga{
+          width: 300%;
+          height: 40%;
+         }                   
+#bodyjoga{
+          background: #00B2A9;
+         }
+              
+#bodyonas{
+          background: #1E1E1E;
+         }                 
+               
+#stat{ 
+      color: white;
+      margin-top: 7%;
+      margin-left: 50%;
+      width: 35%;
+     }
+#levaonas{ 
+      margin-left:6%;
+      margin-top: 5%;
+      position: absolute;
+    
+      
+     }     
+     
+#statonas{ 
+      color: white;
+      margin-top: 5%;
+      margin-left: 50%;
+      width: 40%;
+      
+     }     
+
+h1{
+   font-family: sampb;
+   font-size: 60px;
+  }
+  
+.popis{
+       font-family: calibri;
+       font-size: 17px;
+      }
+
+a {
+   color: white;
+   text-decoration: none;
+  }
+     
+a:hover{
+        text-decoration: underline;
+       }
+
+#pata{
+      top: 75%;
+      height: 25%;
+      width: 100%;
+      margin: 0 auto;
+      position: absolute;
+      background: white;
+     }
+     
+.logo{
+     width:60%; 
+     height: 70%; 
+     margin-left: 5%;                     
+     margin-top: 2.5%;
+     display:block;
+      text-align:center; 
+      background: url('logo_paticka.jpg') no-repeat left top;
+     }
+     }
+     
+#facebook1 {
+           width: 6%; 
+           height: 45%;
+           margin-left: 67%; 
+           margin-top: -6%; 
+           position: absolute;
+          }
+          
+#gplus1 {
+        width: 6%; 
+        height: 45%;
+        margin-left: 73%; 
+        margin-top: -6%; 
+        position: absolute;
+       }
+
+#twitter1 {
+          width: 6%; 
+           height: 45%;
+          margin-left: 79%; 
+          margin-top: -6%; 
+          position: absolute;
+         }
+         
+#youtube1 {
+          width: 6%; 
+           height: 45%; 
+          margin-left: 85%; 
+          margin-top: -6%; 
+          position: absolute;
+         }
+     
+#facebook {
+           width: 6%; 
+           height: 45%;
+           margin-left: 70%; 
+           margin-top: -7%; 
+           position: absolute;
+          }
+          
+#gplus {
+        width: 6%; 
+        height: 45%;
+        margin-left: 76%; 
+        margin-top: -7%; 
+        position: absolute;
+       }
+
+#twitter {
+          width: 6%; 
+           height: 45%;
+          margin-left: 82%; 
+          margin-top: -7%; 
+          position: absolute;
+         }
+        
+#youtube {
+          width: 6%; 
+           height: 45%; 
+          margin-left: 88%; 
+          margin-top: -7%; 
+          position: absolute;
+         }

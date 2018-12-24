@@ -1,0 +1,45 @@
+/* CSS Document */
+@font-face {
+            font-family: "tex";
+            src: url("texgyreadventor.otf");
+           }
+@font-face {
+            font-family: "sampb";
+            src: url("ChampagneBold.ttf");
+           }
+
+ body {
+       margin: 0;
+       padding: 0;
+       color: #1E1E1E; 
+       font-family: tex;
+       text-align: center;
+      }
+a {
+   color: #1E1E1E;
+   text-decoration: none;
+  }
+a:hover {
+         text-decoration: underline;
+        }
+#uno{
+      margin-top: 0%;
+      font-size: 22px;
+     }
+#due {
+     font-size: 32px; 
+     margin-top: -30px;
+     }
+#tre {
+      font-size: 22px;
+      margin-top: 10%;
+     }        
+#odpocet {
+          margin-top: 0%;
+          font-family: sampb;
+          font-size: 200px;
+                 }
+#quatro {
+      font-size: 30px;
+      margin-top: -10%;
+     }                  

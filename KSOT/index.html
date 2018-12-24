@@ -1,54 +1,33 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-
-<head>
-  <meta charset="utf-8" />
-  <meta name="web_author" content="Lukáš Kubík, KSOT">
-  <meta name="icons_author" content="Freepik, http://www.freepik.com">
-  <meta name="music_author" content="Dalyb, https://soundcloud.com/dalyb">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="images/icon.ico" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>KENTAUR</title>
-</head>
-
-<body>
-  <audio src="music/push.mp3" autoplay loop></audio>
-  <div id="header">
-    <p id="name">
-      <span class="letters-A">K</span><span class="letters-B">E</span><span class="letters-A">N</span><span class="letters-B">T</span><span
-        class="letters-A">A</span><span class="letters-B">U</span><span class="letters-A">R</span>
-    </p>
-    <p id="motto">
-      <span class="letters-B">A</span><span class="letters-A">s</span><span class="letters-B">s</span><span class="letters-A">o</span><span
-        class="letters-B">c</span><span class="letters-A">i</span><span class="letters-B">a</span><span class="letters-A">l</span><span
-        class="letters-B">s</span><span class="letters-A">a</span><span class="letters-B">j</span><span class="letters-A">t</span>
-    </p>
-    <div class="menu">
-      <a href="lazne.html" id="menu-item1">
-        <div class="menu-item"></div>
-      </a>
-      <a href="obrazarna.html" id="menu-item2">
-        <div class="menu-item"></div>
-      </a>
-    </div>
-  </div>
-  <a href="index.html" class="tooltips3"><img id="language" src="images/flag.png"></a>
-
-  <script type="text/javascript">
-    function getQuote() {
-
-      var c = Math.round(Math.random() * (17 - 1)) + 1;
-      document.getElementById('bubble').style.backgroundImage = ('url("images/quotes/' + c + '.png")');
-    }
-
-    function unClick() {
-      document.getElementById('bubble').style.backgroundImage = 'none';
-    }
-  </script>
-
-  <img id="wizard" src="images/icon.ico" onMouseOver="getQuote()" onMouseOut="unClick()">
-  <div id="bubble"></div>
-</body>
-
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Lukáš Kubík">
+    <meta name="generator" content="PSPad editor, www.pspad.com">
+    <meta name="description" content="Oficiální stránky, nejimpozantnější společnosti na světě. Průmkařiny smrdí.">
+    <meta name="keywords" content="kentaur, kentaur s.o.t., společnost opředená tajemstvím, průmkařiny smrdí, lukáš kubík, židbook, prasečiny, projekt š, 
+    nohama, poslepu">
+    <meta http-equiv="Refresh" content="11; URL=rozcesti.html">
+    <link rel="stylesheet" href="index.css"> 
+    <title>Kentaur s.o.t. UPOZORNĚNÍ</title>
+  </head>
+  
+  <body>
+     <br><p id="uno">Drahý návštěvníku, chystáš se vstoupit do kouzelného světa Kentaur s.o.t.</p>
+     <p id="due">Takže pokud používáš Internet Explorer, táhni zpátky odkud jsi přišel!</p>
+     <p id="tre">Přesměrování za:</p>
+     <p id=odpocet><span id=cislo></span></p>
+ 
+     <script>
+        var sekundy=11;
+        function odpocet()
+        {         
+        document.getElementById('cislo').innerHTML=sekundy;
+        sekundy--;
+        }
+        odpocet();
+        window.setInterval("odpocet();",1000);
+    </script>
+    <p id="quatro"><a href="rozcesti.html">PŘESKOČIT</a></p>
+  </body>
 </html>
