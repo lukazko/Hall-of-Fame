@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    padding: 20px;
+    height: 100%;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+header {
+    text-align: center;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: rgb(13, 70, 124);
+}
+
+.tab-content {
+    width: 500px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.btn-primary {
+    background-color: rgb(18, 103, 182) ;
+    border-color: rgb(18, 103, 182);
+}
+
+.btn-primary:hover {
+    background-color: rgb(13, 70, 124);
+    border-color: rgb(13, 70, 124);
+}
+
+main{
+    padding-bottom: 20px;
+}

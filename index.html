@@ -6,13 +6,82 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Hall of Fame</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://bootswatch.com/4/united/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 
 <body>
-  <h1>Hall of Fame</h1>
-  <a href="KSOT/index.html">Kentaur - původní stránky</a>
-  <a href="KSOTv2/index.html">Kentaur - associal site</a>
+  <header>
+    <h1>Hall of Fame</h1>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#praseciny">Prasečiny</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#KSOTv1">KSOT v1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#KSOTv2">KSOT v2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#bitva">Bitva o kopec</a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <div id="myTabContent" class="tab-content">
+      <div class="tab-pane fade" id="praseciny">
+        <h2>Prasečiny</h2>
+        <p>Pokus o alternativní školní časopis, který se vymezoval proti stávajícímu a oficiálnímu časopisu
+          Průmkařiny.</p>
+        <p>Časopis měl vycházet pouze v elektronické podobě online ve formě blogových příspěvků jednotlivých
+          redaktorů.
+          Jak už to tak bývá, projekt umřel již v plenkách. Web nebyl nikdy dokončen a vznikl na něm všeho všudy
+          jeden
+          úplný článek.</p>
+        <p>Všechno je to psané v HTML 4.x a s inline CSS => bude s tím ještě hodně práce.</p>
+        <a href="Praseciny/index.html"><button type="button" class="btn btn-primary btn-lg btn-block">Navštívit</button></a>
+      </div>
+      <div class="tab-pane fade active" id="KSOTv1">
+        <h2>Kentaur, společnost opředená tajemstvím</h2>
+        <p>Pravděpodobně druhý web (první je nenávratně ztracen v hlubinách ms serverů), který měl oslavovat dílo
+          tvůrčí
+          skupiny Kentaur, která stála za vším zajímavým, co se
+          dělo na písecké Průmce mezi léty 2012-2016.</p>
+        <p>Rok vzniku webu bych si tipl na rok 2012/2013. Opět nečekaný fakt, tyto stránky nebyly nikdy dokončeny.</p>
+        <p>Psané v HTML 4.x, layout nefunguje, v kódu je bordel.. budu dělat, co můžu.</p>
+        <a href="KSOT/index.html"><button type="button" class="btn btn-primary btn-lg btn-block">Navštívit</button></a>
+      </div>
+      <div class="tab-pane fade" id="KSOTv2">
+        <h2>Kentaur associalsajt</h2>
+        <p>Další pokus o oficiální stránky pro KSOT. Respektive, myslím že tehdejší plán byl udělat jakýsi komunitní
+          web.
+          Plný našich intelektuálních diskuzí a nechyběly by samozřejmě ani nudes od slyčných dívek z Písku.</p>
+        <p>Mé ambice ale postupně opadly, když jsem dokončil úvodní psycho stránku pro epileptiky. Nyní se web zrodil
+          znovu z digitálního popela jako Fénix a může si ho prohlédnou každý alespoň v této nedokončené formě.</p>
+        <p>Psané v HTML 4.x, tuny zbytečného js, v kódu je border, layout nefunguje.. js se snažím převést na CSS
+          animace
+          a opravuji layout..</p>
+        <a href="KSOTv2/index.html"><button type="button" class="btn btn-primary btn-lg btn-block">Navštívit</button></a>
+      </div>
+      <div class="tab-pane fade" id="bitva">
+        <h2>Bitva o kopec</h2>
+        <p>V tomto případě se mělo jednat o veřejně dostupnou verzi hry Bitva o kopec, která byla ve své době velmi
+          populární na kmenových fórech v DK.</p>
+        <p>Celé to vzniklo asi jen díky tomu, že jsem tehdá ve škole dělali v Corelu, a já chtěl najít nějaké
+          uplatnění
+          pro vektorovou grafiku viz background. Každopádně projekt zůstal v plenkách, možná ani to ne.</p>
+        <p>Layout nevypadá, že by fungoval, na kód jsem zatím nekoukal, ale předpokládám stejný průser jako u
+          předchozích
+          webů :D</p>
+        <a href="Bitva-o-kopec/index.html"><button type="button" class="btn btn-primary btn-lg btn-block">Navštívit</button></a>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 
 </html>
